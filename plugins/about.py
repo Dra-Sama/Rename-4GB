@@ -14,16 +14,16 @@ async def start(client, message):
     total_rename = data["total_rename"]
     total_size = data["total_size"]
     await message.reply_text(
-        f"🌟 *Total Users:* {total_user()}\n"
-        f"🤖 *Bot:* @Wizard_Bots\n"
-        f"👤 *Creator:* @cant_think_1\n"
-        f"📚 *Language:* Python3\n"
-        f"📦 *Library:* Pyrogram\n"
-        f"🖥️ *Server:* VPS Server\n"
-        f"📂 *Total Renamed Files:* {total_rename}\n"
-        f"💽 *Total Size Renamed:* {humanbytes(int(total_size))}",
+        f"<b>🌟 Total Users:</b> {total_user()}<br>"
+        f"<b>🤖 Bot:</b> <a href='https://t.me/Wizard_Bots'>Wizard Bots</a><br>"
+        f"<b>👤 Creator:</b> <a href='https://t.me/cant_think_1'>Tenjiku</a><br>"
+        f"<b>📚 Language:</b> Python3<br>"
+        f"<b>📦 Library:</b> Pyrogram<br>"
+        f"<b>🖥️ Server:</b> VPS Server<br>"
+        f"<b>📂 Total Renamed Files:</b> {total_rename}<br>"
+        f"<b>💽 Total Size Renamed:</b> {humanbytes(int(total_size))}",
         quote=True,
-        parse_mode=ParseMode.MARKDOWN
     )
+
 
 
