@@ -23,6 +23,8 @@ async def start(client, message):
         f"<b>📂 Total Renamed Files:</b> {total_rename}<br>"
         f"<b>💽 Total Size Renamed:</b> {humanbytes(int(total_size))}",
         quote=True,
+        parse_mode=ParseMode.HTML,
+        disable_web_page_preview=True
     )
 
 
