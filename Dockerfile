@@ -11,7 +11,7 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists/*
     
 #clonig repo
-RUN git clone https://github.com/kagutsuchi57/Rename-4GB /app
+RUN git clone https://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@github.com/kagutsuchi57/Rename-4GB /app
 
 #work dir
 WORKDIR /app
