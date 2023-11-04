@@ -1,10 +1,12 @@
 import os 
 from config import *
 from pyrogram import Client, filters
+from pyrogram.types import ParseMode 
 token = TOKEN
 botid = token.split(':')[0]
 from helper.database import botdata, find_one, total_user
 from helper.progress import humanbytes
+
 @Client.on_message(filters.private & filters.command(["about"]))
 async def start(client, message):
     botdata(int(botid))
