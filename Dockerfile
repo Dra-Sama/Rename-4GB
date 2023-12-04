@@ -11,10 +11,10 @@ RUN apt-get -y update && \
     rm -rf /var/lib/apt/lists/*
     
 #clonig repo
-RUN git clone https://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@github.com/kagutsuchi57/Rename-4GB /app
+RUN git clone https://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@github.com/kagutsuchi57/Rename-4GB Rename
 
 #work dir
-WORKDIR /app
+WORKDIR Rename
 
 # instaalling req
 RUN pip install -U -r requirements.txt
