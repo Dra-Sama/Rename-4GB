@@ -6,7 +6,7 @@ load_dotenv()
 
 API_ID = int(os.getenv("API_ID", "13675555"))
 API_HASH = os.environ.get("API_HASH", "c0da9c346d2c45dbc7ec49a05da9b2b6")
-TOKEN = os.environ.get("TOKEN", "5304876457:AAEC0ZNDbYd32l1HEDRnvhMDn6-3NC7WHaI")
+TOKEN = os.environ.get("TOKEN", "5304876457:AAFeoeZbD4IPwaOZEpgzqk_tQKVlHtoebgY")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("5591954930")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DB_NAME = os.environ.get("DB_NAME", "kagut")
