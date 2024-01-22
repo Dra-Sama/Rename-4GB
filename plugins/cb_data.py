@@ -69,7 +69,7 @@ async def doc(bot,update):
      splitpath = path.split("/downloads/")
      dow_file_name = splitpath[1]
      old_file_name = f'downloads/{dow_file_name}'
-     os.rename(old_file_name, f"downloads/{new_filename}")
+     os.rename(old_file_name, file_path)
      user_id = int(update.message.chat.id)
      data = find(user_id)
      try:
