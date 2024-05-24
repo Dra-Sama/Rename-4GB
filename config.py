@@ -7,7 +7,7 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", "13675555"))
 API_HASH = os.environ.get("API_HASH", "c0da9c346d2c45dbc7ec49a05da9b2b6")
 TOKEN = os.environ.get("TOKEN", "7190254439:AAE6122mc9hBrdmwdJfOvJzBf32X4Gli5EI")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("1040033572")] if os.environ.get("ADMINS") else []
+ADMINS = int(os.getenv("ADMINS", "1040033572"))
 ADMIN = ADMINS
 DB_NAME = os.environ.get("DB_NAME", "kagut")
 DB_URL = os.getenv("DB_URL", "mongodb+srv://f2l:f2l@cluster0.fjjge1y.mongodb.net/?retryWrites=true&w=majority") 
