@@ -12,7 +12,7 @@ ADMIN = ADMINS
 DB_NAME = os.environ.get("DB_NAME", "kagut")
 DB_URL = os.getenv("DB_URL", "mongodb+srv://f2l:f2l@cluster0.fjjge1y.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "1880221341")) 
-ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
+
 
 
 #  Optionnal variables
