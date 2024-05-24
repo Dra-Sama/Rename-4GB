@@ -29,7 +29,7 @@ async def start(client,message):
 	Hello {message.from_user.first_name }\nI am file renamer bot, Please sent any telegram **Document Or Video** and enter new filename to rename it
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Oᴡɴᴇʀ" ,url="https://t.me/cant_think_1") ], [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🧐", url="https://t.me/WizardBotHelper") ]  ]))
+	 [[ InlineKeyboardButton("Oᴡɴᴇʀ" ,url="https://t.me/Shanks_Kun") ], [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🧐", url="https://t.me/WizardBotHelper") ]  ]))
 	    return
 	if id:
 	    if old == True:
@@ -39,7 +39,7 @@ async def start(client,message):
 	Hello {message.from_user.first_name }\nI am file renamer bot, Please sent any telegram **Document Or Video** and enter new filename to rename it
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	  [[ InlineKeyboardButton("Oᴡɴᴇʀ" ,url="https://t.me/cant_think_1") ], [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🧐", url="https://t.me/WizardBotHelper") ]  ]))
+	  [[ InlineKeyboardButton("Oᴡɴᴇʀ" ,url="https://t.me/Shanks_kun") ], [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🧐", url="https://t.me/WizardBotHelper") ]  ]))
 	        except:
 	             return
 	    else:
@@ -52,7 +52,7 @@ async def start(client,message):
 	Hello {message.from_user.first_name }\nI am file renamer bot, Please sent any telegram **Document Or Video** and enter new filename to rename it
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Oᴡɴᴇʀ" ,url="https://t.me/cant_think_1") ], [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🧐", url="https://t.me/WizardBotHelper") ]  ]))
+	 [[ InlineKeyboardButton("Oᴡɴᴇʀ" ,url="https://t.me/Shanks_Kun") ], [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🧐", url="https://t.me/WizardBotHelper") ]  ]))
 	         
 
 
