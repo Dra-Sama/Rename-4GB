@@ -16,7 +16,7 @@ async def start(client, message):
     await message.reply_text(
         f"<b>🌟 Total Users:</b> {total_user()}\n"
         f"<b>🤖 Bot:</b> <a href='https://t.me/Wizard_Bots'>Wizard Bots</a>\n"
-        f"<b>👤 Creator:</b> <a href='https://t.me/cant_think_1'>Tenjiku</a>\n"
+        f"<b>👤 Creator:</b> <a href='https://t.me/Shanks_Kun'>Tenjiku</a>\n"
         f"<b>📚 Language:</b> Python3\n"
         f"<b>📦 Library:</b> Pyrogram\n"
         f"<b>🖥️ Server:</b> VPS Server\n"
