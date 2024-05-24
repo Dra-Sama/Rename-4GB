@@ -9,7 +9,7 @@ async def upgrade(bot,update):
 	
 	**VIP**
         Donate Premium string and i will add you to premium"""
-	keybord = InlineKeyboardMarkup([[ InlineKeyboardButton("ADMIN 🛂", url = "https://t.me/cant_think_1")]])
+	keybord = InlineKeyboardMarkup([[ InlineKeyboardButton("ADMIN 🛂", url = "https://t.me/Shanks_Kun")]])
 	await update.message.edit(text = text, reply_markup = keybord)
 	
 
@@ -21,5 +21,5 @@ async def upgradecm(bot,message):
 	
 	**VIP **
         Donate Premium string and i will add you to premium"""
-	keybord = InlineKeyboardMarkup([[ InlineKeyboardButton("ADMIN 🛂", url = "https://t.me/cant_think_1")]])
+	keybord = InlineKeyboardMarkup([[ InlineKeyboardButton("ADMIN 🛂", url = "https://t.me/Shanks_kun")]])
 	await update.message.edit(text = text, reply_markup = keybord)
